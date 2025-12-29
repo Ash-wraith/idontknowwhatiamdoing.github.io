@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style> 
+        #btn1 {
+            cursor: pointer;
+        }
+        #btn1:hover {
+            background-color: rgb(85, 83, 82);
+        }
+        #btn1:active {
+            transform: scale(0.98);
+        }
+        a {
+            text-decoration: none;
+            border: 2px solid rgb(15, 5, 5);
+            border-radius: 2px;
+            color: rgb(13, 13, 43);
+            background-color: grey ;
+            border-width: 1.3px;
+            padding: 2px;
+            font-size: 13px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a:hover {
+            background-color: rgb(85, 83, 82);
+            color: rgb(147, 139, 139);
+        }
+
+        </style>
+
+</head>
+<body>
+    <form action="#">
+<label for="first-name" name="first-name">First Name: </label>
+<input type="text" name="name" required>
+
+<label for="last-name" name="last-name">Last Name: </label>
+<input type="text" name="name" required><br>
+
+<label for="number">Mobile number: </label>
+<input type="number" name="number" id="" maxlength="10" max="10" required><br>
+
+<label for="email">Email id: </label>
+<input type="email" name="email" id="Email" required><br>
+
+<label for="dob">Date of Birth: </label>
+<input type="date" name="dob" id="DOB" required><br>
+
+<label for="food">Select your food preference: </label>
+Veg <input type="radio" name="food" id="Veg" required>
+Non-veg<input type="radio" name="food" id="Non-veg" required><br>
+
+<label>Select your fev. Subjects: </label>
+Maths <input type="checkbox" id="Maths">
+History <input type="checkbox" name="sub1" id="History">
+Geography <input type="checkbox" name="sub1" id="Geography"><br>
+<label for="car"> Choose your car: </label>
+<select name="car" id="car">
+    <option value="none">None</option>
+    <option value="Volvo">Volvo</option>
+    <option value="bmw">BMW</option>
+    <option value="audi">Audi</option>
+    <option value="mercedes">Mercedes</option>
+</select><br>
+
+<label>If you have any suggestions please enter it below (MAX 50 Char): </label><br>
+<textarea name="" id="" rows="4" cols="50"></textarea><br>
+<input id="btn1" type="submit" value="Submit">
+<input id="btn1" type="reset" value="Reset">
+
+<a href="#">submit </a>
+
+</form>
+    
+</body>
+</html>
